@@ -1,6 +1,6 @@
 FROM alpine:3.9
 
-ENV VERSION 21.0
+ENV VERSION 21.1
 ENV URL https://github.com/nzbget/nzbget/releases/download/v${VERSION}/nzbget-${VERSION}-bin-linux.run
 
 RUN apk add --update curl && \
